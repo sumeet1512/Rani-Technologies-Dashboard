@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/css/main.c28f0ec3.css",
+    "main.js": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/js/main.d149eaa1.js",
+    "static/js/453.b59a6793.chunk.js": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/js/453.b59a6793.chunk.js",
+    "static/media/Display.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/Display.0168095040354204011b596e30abf32e.svg",
+    "static/media/Cancelled.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/Cancelled.360749f102ea2ac68b5841e9f9ff29dd.svg",
+    "index.html": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/index.html",
+    "static/media/Done.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/Done.a5158827c6345b2f141ff681c57cb3ac.svg",
+    "static/media/Img - Low Priority.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/Img - Low Priority.491e21f9000cb90112dea470dbb72650.svg",
+    "static/media/Img - Medium Priority.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/Img - Medium Priority.83775665307e977d62e9b0fc7fb95cc4.svg",
+    "static/media/Img - High Priority.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/Img - High Priority.5024fd0d163cb13c95f2d29079e2974d.svg",
+    "static/media/in-progress.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/in-progress.d4beb72fbc94f765259fc46ecaba9779.svg",
+    "static/media/Backlog.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
+    "static/media/To-do.svg": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
+    "main.c28f0ec3.css.map": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/css/main.c28f0ec3.css.map",
+    "main.d149eaa1.js.map": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/js/main.d149eaa1.js.map",
+    "453.b59a6793.chunk.js.map": "/sumeet1512/.github.io/Rani-Technologies-Dashboard/static/js/453.b59a6793.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c28f0ec3.css",
+    "static/js/main.d149eaa1.js"
+  ]
+}
