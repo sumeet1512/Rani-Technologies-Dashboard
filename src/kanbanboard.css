@@ -1,0 +1,254 @@
+.kanban-board {
+  display: flex;
+  flex-direction: column; /* Stack controls above columns */
+  padding: 20px; /* Add some padding around the board */
+}
+
+.kanban-controls {
+  display: flex;
+}
+
+.controls-box {
+  background-color: white; /* White background for the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: rgba(0,0,0,0.2) 0px 4px 12px; /* Shadow for depth */
+  padding: 15px; /* Padding inside the box */
+  margin-bottom: 20px; /* Space between controls and columns */
+}
+
+.controls-box label {
+  margin-right: 20px; /* Space between labels */
+}
+
+.kanban-columns {
+  display: flex;
+}
+
+.kanban-column {
+  flex-grow: 1; /* Allow columns to grow equally */
+  margin-right: 20px; /* Space between columns */
+}
+
+.kanban-column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 10px; /* Space below header */
+}
+
+.column-actions {
+  display: flex;
+}
+
+.add-column-button,
+.delete-column-button {
+  background-color: transparent; /* No background */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: larger; /* Increase font size */
+}
+
+.add-column-button:hover,
+.delete-column-button:hover {
+  color: blue; /* Change color on hover */
+}
+
+.kanban-column-content {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+}
+
+.kanban-card {
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 10px; /* Space between cards */
+  padding: 15px;
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 8px; /* Shadow for floating effect */
+  transition: transform .2s; /* Smooth transition for hover effect */
+}
+
+.kanban-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.kanban-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.urgent {
+ color:red;
+}
+
+.high {
+ color:#ff9900;
+}
+
+.medium {
+ color:#ffcc00;
+}
+
+.low {
+ color:#66cc66;
+}
+
+.kanban-card {
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 10px; /* Space between cards */
+  padding: 15px;
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 8px; /* Shadow for floating effect */
+}
+
+.kanban-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kanban-card-description {
+  margin-top: 5px; /* Space between title and description */
+}
+
+.kanban-card-footer {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-top: 10px; /* Space above footer */
+}
+
+.three-dots {
+  margin-right: 5px; /* Space between dots and grey dot */
+}
+
+.grey-dot {
+  display:inline-block;
+  width:8px; /* Size of grey dot */
+  height:8px; /* Size of grey dot */
+  border-radius:50%; /* Make it circular */
+  background-color:#ccc; /* Grey color */
+  margin-right:5px; /* Space between grey dot and text */
+}
+
+.kanban-card-footer {
+  display:flex;
+  align-items:center; /* Center items vertically */
+  margin-top:auto; /* Space above footer */
+}
+
+.kanban-card-footer svg {
+  margin-right:.5rem; /* Space between icons and text */
+}
+
+.kanban-card-footer {
+  display:flex;
+  align-items:center; /* Center items vertically */
+  margin-top:auto; /* Space above footer */
+}
+
+.grey-dot {
+  display:inline-block;
+  width:8px; /* Size of grey dot */
+  height:8px; /* Size of grey dot */
+  border-radius:50%; /* Make it circular */
+  background-color:#ccc; /* Grey color */
+  margin-right:.5rem; /* Space between grey dot and text */
+}
+
+/* Add any additional styles for priority icons if necessary */
+.kanban-card-footer svg {
+  margin-right:.5rem; /* Space between icons and text */
+}
+.ticket-id {
+  font-size: 14px; /* Adjust size as needed */
+  margin-bottom: 5px; /* Space between title and ID */
+  color: grey; /* Grey color for the ID */
+}
+
+.display-options {
+  position: relative;
+  margin-bottom: 20px; /* Space below the display options */
+}
+
+.display-options button {
+  background-color: #fff; /* White background */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,0.2) 0px 4px 12px; /* Shadow for depth */
+  transition: all .2s ease; /* Smooth transition */
+}
+
+.display-options button:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.options-container {
+  background-color: white; /* White background for options */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside the box */
+  box-shadow: rgba(0,0,0,0.2) 0px 4px 12px; /* Shadow for depth */
+  margin-top: 10px; /* Space above options */
+}
+
+.options-container label {
+  display: block; /* Stack labels vertically */
+  margin-bottom: 10px; /* Space between labels */
+}
+
+.display-options {
+  position: relative;
+  margin-bottom: 20px; /* Space below the display options */
+}
+
+.display-button {
+  background-color: white; /* White background */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,0.2) 0px 4px 12px; /* Shadow for depth */
+  transition: all .2s ease; /* Smooth transition */
+}
+
+.display-button:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.options-container {
+  background-color: white; /* White background for options */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside the box */
+  box-shadow: rgba(0,0,0,0.2) 0px 4px 12px; /* Shadow for depth */
+  margin-top: 10px; /* Space above options */
+}
+
+.options-container label {
+  display: block; /* Stack labels vertically */
+  margin-bottom: 10px; /* Space between labels */
+}
+
+.kanban-column-header .column-icon {
+  margin-right: 8px; /* Space between icon and title */
+}
+
+.kanban-card-footer .grey-dot {
+  display:inline-block;
+  width:8px; /* Size of grey dot */
+  height:8px; /* Size of grey dot */
+  border-radius:50%; /* Make it circular */
+  background-color:#ccc; /* Grey color */
+  margin-right:.5rem; /* Space between grey dot and text */
+}
+
+.user-icon {
+  position: absolute; /* Position it relative to the card */
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  width: 30px; /* Width of the circular image */
+  height: 30px; /* Height of the circular image */
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Ensure it covers the area without distortion */
+  border: 2px solid white; /* Optional border for better visibility */
+  box-shadow: rgba(0,0,0,0.2) 0px 2px 4px; /* Shadow for depth */
+}
+
